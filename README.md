@@ -1,4 +1,4 @@
-# 🏥 Medicare - Hospital Management System
+# 🏥 Medicare - Clinic Management System
 
 A full-stack clinic Management System designed to streamline healthcare operations with dedicated modules for Patients, Doctors, and Admin. The platform enables appointment booking, service management, and real-time system monitoring.
 
@@ -108,46 +108,72 @@ cd hospital-management
 ---
 
 ## 🔧 Backend Setup
+
+```bash
 cd backend
 npm install
+```
 
-Create `.env` file for backend:
-CLERK_PUBLISHABLE_KEY=YOUR CLERK_PUBLISHABLE_KEY
-CLERK_SECRET_KEY=YOUR CLERK_SECRET_KEY
-CLOUDINARY_CLOUD_NAME=YOUR CLOUDINARY_CLOUD_NAME
-CLOUDINARY_API_KEY=YOUR CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET=YOUR CLOUDINARY_API_SECRET
-JWT_SECRET=YOUR JWT_SECRET
-MONGO_URI=YOUR MONGODB_URL
-STRIPE_SECRET_KEY =YOUR STRIPE_SECRET_KEY
+Create a `.env` file in the `backend` folder:
 
+```env
+CLERK_PUBLISHABLE_KEY=YOUR_CLERK_PUBLISHABLE_KEY
+CLERK_SECRET_KEY=YOUR_CLERK_SECRET_KEY
+CLOUDINARY_CLOUD_NAME=YOUR_CLOUDINARY_CLOUD_NAME
+CLOUDINARY_API_KEY=YOUR_CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET=YOUR_CLOUDINARY_API_SECRET
+JWT_SECRET=YOUR_JWT_SECRET
+MONGO_URI=YOUR_MONGODB_URL
+STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY
+```
 
-Run backend:
+Run the backend:
+
+```bash
 npm start
-
+```
 
 ---
 
 ## 💻 Frontend Setup
+
+```bash
 cd Frontend
 npm install
+```
 
-Create `.env` file for Frontend:
-VITE_CLERK_PUBLISHABLE_KEY=YOUR VITE_CLERK_PUBLISHABLE_KEY
+Create a `.env` file in the `Frontend` folder:
 
-Run FRONTEND:
+```env
+VITE_CLERK_PUBLISHABLE_KEY=YOUR_VITE_CLERK_PUBLISHABLE_KEY
+```
+
+Run the frontend:
+
+```bash
 npm run dev
-
+```
 
 ---
 
 ## 🛠️ Admin Panel Setup
+
+```bash
 cd admin
 npm install
+```
 
-Create `.env` file for admin:
-VITE_CLERK_PUBLISHABLE_KEY=YOUR VITE_CLERK_PUBLISHABLE_KEY
+Create a `.env` file in the `admin` folder:
 
+```env
+VITE_CLERK_PUBLISHABLE_KEY=YOUR_VITE_CLERK_PUBLISHABLE_KEY
+```
+
+Run the admin panel:
+
+```bash
+npm run dev
+```
 Run admin:
 npm run dev
 
