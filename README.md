@@ -174,8 +174,6 @@ Run the admin panel:
 ```bash
 npm run dev
 ```
-Run admin:
-npm run dev
 
 
 ## 👨‍💻 Author
